@@ -1,10 +1,20 @@
 programa {
   funcao inicio() {
-    cadeia nome = ("Amanda Fonseca")
-    inteiro idade = 21
-    real altura = 1.52
+    cadeia nome
+    inteiro idade
+    real altura
+      
 
-    escreva (nome, "\n", idade, "\n", altura)
-    
+      escreva("Digite seu nome: ")
+      leia(nome)
+      escreva ("Digite sua idade: ")
+      leia(idade)
+      escreva("Digite sua altura: ")
+      leia(altura)
+
+      escreva("Seu nome: " + nome)
+      escreva("\n Sua idade: " + idade)
+      escreva("\n Sua altura: " + altura)
+  
   }
 }
